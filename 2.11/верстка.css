@@ -4,7 +4,6 @@
     box-sizing: border-box;
 }
 body {
-    color: white;
     background-color: #141414;
 }
 header {
@@ -16,6 +15,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 .logo {
     width: 160px;
@@ -32,7 +32,8 @@ nav {
     text-decoration: none;
     font-weight: 400;
     font-size: 17px;
-    
+    line-height: 27px;
+
 }
 
 .menu a:hover {
@@ -81,3 +82,237 @@ nav {
     margin-right: 15px;
 
 }
+
+/* card 3 */
+.card1 {
+    display: flex;
+    background-color: #000000;
+    margin: 40px 40px;
+    gap: 53px;
+    align-items: center;
+    padding: 40px 40px;
+    border-radius: 32px;
+
+}
+.card-block {
+    
+
+}
+.text {
+    color: #FFFFFF;
+    width: 400;
+    size: 18px;
+    line-height: 27px;
+    padding: 0 16px;
+    width: fit-content;
+    margin-bottom: 48px;
+}
+.episode {
+    font-weight: 400;
+    size: 17px;
+    line-height: 27px;
+    color: #118DA8;
+    margin-bottom: 17.56px;
+}
+.title {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70.4px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+.text1 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 18px;
+    color: #FFFFFFB2;
+}
+.btn1 {
+    background-color: #118DA8;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 15px 12px 20px;
+    border: none;
+}
+
+
+/* card 4 */
+
+.card2 {
+  display: flex;
+    background-color: #000000;
+    margin: 40px 40px;
+    gap: 53px;
+    align-items: center;
+    padding: 40px 40px;
+    border-radius: 32px;
+
+}
+.card-block {
+    
+
+}
+.gear {
+    background-color: #191919;
+    border-radius: 6px;
+    color: #FFFFFF;
+    width: 400;
+    size: 18px;
+    line-height: 27px;
+    padding: 0 16px;
+    width: fit-content;
+    margin-bottom: 48.44px;
+}
+.episode1 {
+    font-weight: 400;
+    size: 17px;
+    line-height: 27px;
+    color: #118DA8;
+    margin-bottom: 17.56px;
+}
+.title1 {
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 70.4px;
+    color: #FFFFFF;
+    margin-bottom: 28px;
+}
+.text3 {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 18px;
+    color: #FFFFFFB2;
+}
+.btn2 {
+    background-color: #118DA8;
+    border-radius: 6px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding: 12px 15px 12px 20px;
+    border: none;
+}
+/* card 5 */
+.card3 {
+    display: flex;
+    justify-content: space-between;
+    background-color: #000000;
+    margin: 40px;
+    padding: 40px;
+    border-radius: 32px;
+    align-items: center;
+    gap: 40px;
+}
+
+.card-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px; 
+}
+
+.title2 {
+    color: #118DA8;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 20px;
+}
+
+.text4 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 65px;
+    line-height: 79.2px;
+    margin: 20px 0;
+}
+
+.text5 {
+    color: #FFFFFFB2;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 20px;
+
+}
+.text6 {
+    color: #FFFFFFB2;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    margin-bottom: 20px;
+}
+
+/* card 6*/
+
+.container {
+   display: flex;
+    background-color: #000000;
+    margin: 40px 40px;
+    gap: 53px;
+    align-items: center;
+    padding:  40px 40px;
+    border-radius: 32px;
+    gap:  76px;
+}
+.box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.box2 {
+     display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.box2 input {
+    height: 56px;
+    background-color: #191919;
+    border: 1px solid #191919;
+    border-radius: 6px;
+    color: #FFFFFFB2;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8;
+    width: 520px;
+    padding-left: 19px;
+
+}
+.emailsletter {
+    color: #118DA8;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 0;
+    
+} 
+.title3 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 79.2px;
+    margin-bottom: 85.78px;
+} 
+
+.btn3 {
+    background-color: #118DA8;
+    color: #FFFFFFB2;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 28.8px;
+    border: none;
+    padding: 9px 15px 10px 19px;
+    border-radius: 6px;
+}
+
+
+
