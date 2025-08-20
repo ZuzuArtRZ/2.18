@@ -1,0 +1,525 @@
+
+/* card 1 */
+.container {
+    display: grid;
+    gap: 20px;
+    padding: 99.88px 50px 100.12px 50px;
+    border-radius: 32px;
+    grid-template-columns: repeat(3, 1fr);
+}
+.container img {
+    width: 432px;
+}
+/* card 2 */
+.boxes {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:  15px;
+    margin: 0 auto;
+    padding: 20px;
+}
+.box {
+    padding-top: 20px;
+    background-color: #000000;
+    border-radius: 32px;
+    width: 423px;
+    height: 321px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.stars {
+    color: gold;
+    width: 18px;
+    height: 17px;
+    padding-top: 54px;
+    padding-left: 50px;
+    margin-bottom: 21px;
+}
+.Text {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 43.2px;
+    margin-bottom:  19px;
+    padding-left: 50px;
+}
+.autor {
+    color: #FFFFFFB2;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28.8px;
+    padding-left: 50px;
+}
+
+/* card 3 */
+
+.container2 {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: column; 
+    align-items: center;
+    justify-content: ;
+}
+.container img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+    height: 100%;
+}
+.text-block {
+    justify-content: space-between;
+    position: absolute;
+    top: 37px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    width: 100%;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 143%;
+    color: #FFFFFF;
+    padding-left: 370px;
+   
+}
+
+.sity {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    padding-left: 550px;
+}
+
+.iphon {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 152%;
+    text-align: right;
+    padding-right: 370px;
+    padding-left: 69px;
+}
+.text-block1 {
+    position: absolute;
+    top: 37%;
+    margin-bottom: 188px;
+    margin-left: 370px;
+}
+.вкуснейшие {
+    background-color: #F2F6FA;
+    border-radius: 5px;
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    display: inline-block;
+    padding: 10px 18px;
+    margin-bottom: 24px;
+}
+.text {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 24pxpx;
+
+}
+.title {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 143%;
+    margin-bottom: 40px;
+} 
+.box2 {
+    display: flex;
+    align-items: center;
+    padding-top: 40px;
+    flex-direction: column;
+    gap: 20px; 
+    align-items: flex-start; 
+    flex-direction: row;  
+}
+.btn {
+    background-color:#FED84C;
+    border: none;
+    border-radius: 8px;
+    color: #2E363E;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    padding: 30px 50px;
+
+} 
+.text1 {
+    padding: 20px 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 160%;
+} 
+
+/* card 4 */
+
+.container3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:  20px;
+    margin-left: 370px;
+    margin-right: 370px;
+}
+.h2 {
+    color: #2E363E;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    padding-left: 370px;
+    align-self: center;
+}
+
+.item {
+    
+}
+.box3 {
+    background-color: #FFFFFF;
+    border: 1px solid #F2F6FA;
+    padding: 50px 89px 44px 50px;
+}
+.title2 {
+    color: #2E363E;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 143%;
+    margin-bottom: 12px;
+}
+.content {
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+.price1 {
+    color: #434B53;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 150%;
+    margin-bottom: 14px;
+}
+.btn2 {
+    color: #2E363E;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    background-color: #FED84C;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 40px;
+}
+
+
+/* card 5 */
+
+.container4 {
+    background-color: #081130;
+    display: flex;
+   
+    margin-top: 40px;
+    justify-content: space-between;
+    gap: 84px;
+    align-items: center;
+}
+.box4 {
+    display: inline-block;
+    margin-right: 800px;
+
+}
+.text3 {
+    background-color: #F2F6FA;
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 150%;
+    margin-bottom: 24px;
+    border-radius: 5px;
+    display: inline-block;
+    padding: 10px 18px;
+}
+.заголовок {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 24px;
+}
+.подзаголовок {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    margin-bottom: 40px;
+}
+.btn3 {
+    background-color: #FED84C;
+    border-radius: 8px;
+    color: #2E363E;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    border: none;
+    padding: 20px 30px;
+}
+/* card 6 */
+
+.container5 {
+    margin-top: 30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding: 0 300px;
+    gap: 80px;
+}
+.box5 {
+    display: flex;
+    flex-direction: column;
+}
+.text4 {
+    background-color: #F2F6FA;
+    width: 191px;
+    height: 37px;
+    color: #2E363E;
+    border-radius: 5px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 24px;
+    padding: 10px 20px;
+}
+.заголовок1 {
+    color: #2E363E;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 36px;
+}
+.bullet {
+    color: #5D6AFB; /* Точку чуть ниже не получилось выставить*/
+    display: flex;
+    gap: 12px;
+}
+
+.text5 {
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 30px;
+}
+.btn4 {
+    background-color: #FED84C;
+    border-radius: 6px;
+    padding: 20px 30px;
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-top: 50px;
+    align-self: start;
+    border: none;
+}
+.box6 {
+    margin-bottom: 50px;
+}
+.name1 {
+    background-color: #2E363E;
+    width: 199px;
+    height: 28px;
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    padding: 15px 15px;
+}
+.autor1 {
+    background-color: #F2F6FA; /* Подложки прямоугольные 
+    черная и серая, не знаю как наклонить  */
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    gap: 10px;
+    padding: 15px 15px;
+    width: 170px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+/* card 7 */
+.body1 {
+    background-color: #081130;
+}
+.container6 {
+    width: 1000px;   
+    height: 600px;    
+    margin-top: 80px;
+    background-color: white; /* Контейнер6 не получилось вставить в середине 
+     и еще пунктирная линия под ЧИТАТЬ ОТЗЫВ ПОЛНОСТЬЮ не знаю, как ее сделать  */
+    justify-content: center; 
+    align-items: center;
+    display: flex;
+    padding: 70px 143px;
+    gap: 54px;
+}
+
+
+.отзывы {
+    color: #2E363E;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 143%;
+    margin-top: 24px;
+    margin-bottom: 24px;
+
+} 
+.отзыв1 {
+    color: #2E363E;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 143%;
+    
+}
+.отзыв2 {
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 170%;
+    margin-bottom: 24px;
+}
+.отзыв3 {
+    color: #4A94FF;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    
+
+}
+.avatar {
+
+}
+.name2 {
+    color: #2E363E;
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 143%;
+    margin-top: 30px;
+    margin-bottom: 6px;
+}
+.город {
+    color: #A6AEB6;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+    margin-left: 20px;
+}
+.icons {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+
+}
+/* card 8 */
+
+.h2 {
+    color: #2E363E;
+    margin-bottom: 14px;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 60px;
+    margin: 0 491px;
+    margin-bottom: 14px;  /* Тексты на середину не встают */
+}
+.p {
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 143%;
+    margin-bottom: 80px;
+    margin: 0 602.5;   
+}
+
+.IMAGES {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+/* card 9 */
+
+.body2 {
+    background-color: black;
+}
+.container7 {
+    width: 1180px;
+    height: 400px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+
+
+}
+.заголовок3 {
+    color: #2E363E;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 133%;
+    margin-bottom: 12px;
+
+}
+.заголовок4 {
+    color: #2E363E;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    margin-bottom: 36px;
+}
+.btn5 {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-bottom: 25px;
+    
+}
+.number {
+    color: #7E868E;
+    background-color: #F2F6FA;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 160%;
+    padding: 32px 190px 29px 58px;
+}
+.заказ1 {
+    background-color: #FED84C;
+    border-radius: 8px;
+    color: #2E363E;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 152%;
+    gap: 10px;
+    padding-left: 20px;
+    padding: 29px 133.5px;
+}
+.text6 {
+    color: #7E868E;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 130%;
+}
