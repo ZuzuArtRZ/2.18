@@ -4,13 +4,11 @@
 .catalog {
     max-width: 1110px;
     margin: auto;
-}
-
-.france {
-   display: grid;
+     display: grid;
    grid-template-columns: repeat(3, 1fr);
    gap: 30px;
 }
+
 .Амур {
     background-color:#E1EDE6;
     padding: 20px 20px;

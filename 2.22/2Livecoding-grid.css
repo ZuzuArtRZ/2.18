@@ -3,19 +3,17 @@
 
 .catalog {
     width: 730px;
-    padding: 30px 30px;
-    margin: auto;
-}
-
-.france {
-   display: grid;
-   grid-template-columns: repeat(2, 1fr);
-   gap: 30px;
-   width: 100%;
+    padding: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    display: grid;
+    justify-content: center;
+    gap: 30px;
+    margin: 0 auto;
 }
 .Амур {
     background-color:#E1EDE6;
     padding: 20px 20px;
+   
 }
 .autor1 {
     color: #86928B;
